@@ -1,0 +1,5 @@
+s=raw_input()
+c=raw_input().split(' ')
+s=list(s)
+s[int(c[0])]=chr(c[1])
+print ''.join(i for i in s)
